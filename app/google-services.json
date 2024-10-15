@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "808394210112",
+    "firebase_url": "https://bbms1-1f1f7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bbms1-1f1f7",
+    "storage_bucket": "bbms1-1f1f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808394210112:android:dd502e127e88fc2221d8a5",
+        "android_client_info": {
+          "package_name": "com.lalitjain.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808394210112-rrcr8ka9mvuitlv98igah6gg9jl5fa0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjj3XU-Nbs6_nvqw8eVpoe2Oii9OWeqcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808394210112-rrcr8ka9mvuitlv98igah6gg9jl5fa0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808394210112:android:bcdc7f34e46d59a321d8a5",
+        "android_client_info": {
+          "package_name": "lalitjain.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808394210112-rrcr8ka9mvuitlv98igah6gg9jl5fa0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjj3XU-Nbs6_nvqw8eVpoe2Oii9OWeqcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808394210112-rrcr8ka9mvuitlv98igah6gg9jl5fa0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

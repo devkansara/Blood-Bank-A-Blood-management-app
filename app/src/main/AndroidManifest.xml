@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lalitjain.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodBankSystem">
+        <activity
+            android:name=".AdminActualViewAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminViewAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoggedInMenu"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalViewAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".BookingSlot"
+            android:exported="true" />
+        <activity
+            android:name=".BookAppointment"
+            android:exported="true" />
+        <activity
+            android:name=".RecieverAuth"
+            android:exported="true" />
+        <activity
+            android:name=".RecieverLoggedIn"
+            android:exported="true" />
+        <activity
+            android:name=".AdminViewSwipe"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSeeSinglePatient"
+            android:exported="true" />
+        <activity
+            android:name=".AdminViewHospitalPatient"
+            android:exported="true" />
+        <activity
+            android:name=".HospitalDeleteDonor"
+            android:exported="true" />
+        <activity
+            android:name=".SingleDonorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HospitalViewDonor"
+            android:exported="true" />
+        <activity
+            android:name=".HospitalLoginMenu"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSeeHospital"
+            android:exported="true" />
+        <activity
+            android:name=".HospitalSignup"
+            android:exported="true" />
+        <activity
+            android:name=".HospitalAddDonor"
+            android:exported="true" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="true" />
+        <activity
+            android:name=".HospitalLogin"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

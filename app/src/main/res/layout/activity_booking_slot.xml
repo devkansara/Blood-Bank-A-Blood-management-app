@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingSlot">
+
+    <TextView
+        android:id="@+id/tvReceiverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvReceiverEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="8dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvHospitalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="4dp"
+        android:hint="Quantity Required"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Select date"
+            android:layout_marginLeft="8dp"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/ivCalender"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+
+            app:srcCompat="@drawable/calender" />
+
+    </LinearLayout>
+
+    <!--    <CalendarView-->
+    <!--        android:id="@+id/calendarView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        />-->
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:selectionRequired="true"
+        android:layout_marginTop="20dp"
+        app:singleSelection="true"
+        >
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="10:00 AM - 12:00 PM"
+            android:checked="true"
+            android:layout_marginLeft="12dp"
+            android:textAlignment="center"
+
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:gravity="center_horizontal" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="12:00 PM - 2:00 PM"
+            android:gravity="center"
+            android:textAlignment="center"
+            style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip6"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="2:00 PM - 4:00 PM"
+            android:layout_marginLeft="12dp"
+            android:textAlignment="center"
+            style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip7"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="4:00 PM - 6:00 PM"
+            android:gravity="center"
+            android:textAlignment="center"
+            style="@style/Widget.MaterialComponents.Chip.Filter"/>
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/btnBookSlot"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Book Slot" />
+
+
+</LinearLayout>

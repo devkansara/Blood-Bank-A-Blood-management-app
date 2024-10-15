@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_actual_view_appointment.xml" value="0.1947463768115942" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_logged_in_menu.xml" value="0.1947463768115942" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_login.xml" value="0.12545289855072464" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_see_hospital.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_see_single_patient.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_view_appointment.xml" value="0.1947463768115942" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_view_hospital_patient.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_admin_view_swipe.xml" value="0.16077898550724637" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_book_appointment.xml" value="0.12092391304347826" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_booking_slot.xml" value="0.15" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_add_donor.xml" value="0.12545289855072464" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_delete_donor.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_login.xml" value="0.1" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_login_menu.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_signup.xml" value="0.12545289855072464" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_view_appointment.xml" value="0.1947463768115942" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_hospital_view_donor.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_main.xml" value="0.12545289855072464" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_reciever_auth.xml" value="0.13903985507246377" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_reciever_logged_in.xml" value="0.13903985507246377" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_single_donor.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/activity_user_login.xml" value="0.12545289855072464" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/del_layout.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/listview_item.xml" value="0.1" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/listview_scam.xml" value="0.1947463768115942" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/recycleview_row.xml" value="0.17074275362318841" />
+        <entry key="..\:/Android/L17/BloodBankSystem/app/src/main/res/layout/recylceview_row.xml" value="0.17074275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

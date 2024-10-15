@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookAppointment">
+
+    <TextView
+        android:id="@+id/tvFilterBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_height="45dp"
+        android:text="Filter by Blood Group" />
+
+    <Spinner
+        android:id="@+id/spnBloodGroup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/btnSearchBloodGroup"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Filter" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lvHospitalFound"/>
+
+</LinearLayout>
